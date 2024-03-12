@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f3f4f6;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  /* background: rgba(255, 0, 0, 0.5); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  padding: 1rem;
+}
+
+.logo {
+  height: 60px;
+  margin-top: 3rem;
+}
+
+header nav li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+header nav li a {
+  color: rgb(132, 132, 132);
+  text-decoration: none;
+}
+
+.active {
+  color: blue;
+  text-decoration-line: underline;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 34px;
+  margin-bottom: 100px;
+}
+.line {
+  text-decoration: underline;
+  padding-bottom: 3rem;
+}
+
+p {
+  color: grey;
+  line-height: 1.6;
+}
+button {
+  width: 165px;
+  height: 54px;
+  background-color: #4e5dc0;
+  color: #ffffff;
+  border: hidden;
+  border-radius: 5px;
+}
+
+.post-img {
+  width: 570px;
+  height: 427px;
+}
+.post-img1 {
+  width: 500px;
+  height: 480px;
+}
+
+.container2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  line-height: 34px;
+  padding-bottom: 100px;
+}
+.our .logo1 {
+  height: 60px;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: white;
+  padding: 5rem 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.a-privacy {
+  display: block;
+  text-transform: uppercase;
+  color: blue;
+  margin: 1.5rem 0;
+  font-weight: bold;
+}
+
+footer .box {
+  flex-basis: 25%;
+}
+
+footer .social {
+  align-self: start;
+}
